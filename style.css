@@ -1,0 +1,74 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 870px;
+    padding: 25px;
+}
+
+.section-color {
+    color: #562EFF;
+    font-size: 24px;
+
+}
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+/* Top Players Style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 28px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* Top Blog Style */
+.blog {
+    display: flex;
+}
+
+.blog img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog .thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-titile {
+    font-size: 20px;
+}
